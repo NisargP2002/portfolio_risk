@@ -79,8 +79,12 @@ Simulated real-world shocks:
 
 ## 📂 Project Structure
 
-portfolio-risk-dashboard/ │ ├── main.py                # Main application script ├── requirements.txt      # Dependencies ├── README.md             # Project documentation └── outputs/              # Saved charts (optional)
-
+portfolio-risk-dashboard/
+│
+├── main.py                # Main application script
+├── requirements.txt      # Dependencies
+├── README.md             # Project documentation
+└── outputs/              # Saved charts (optional)
 ---
 
 ## ▶️ Run the Dashboard

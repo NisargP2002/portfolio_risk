@@ -83,12 +83,6 @@ portfolio-risk-dashboard/ │ ├── main.py                # Main applicatio
 
 ---
 
-## ⚙️ Installation
-
-bash # Clone repository git clone https://github.com/YOUR_USERNAME/portfolio-risk-dashboard.git cd portfolio-risk-dashboard  # Create virtual environment python -m venv venv source venv/bin/activate   # macOS/Linux # venv\Scripts\activate    # Windows  # Install dependencies pip install -r requirements.txt 
-
----
-
 ## ▶️ Run the Dashboard
 
 bash python main.py 

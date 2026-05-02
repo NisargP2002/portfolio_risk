@@ -131,21 +131,3 @@ The dashboard displays:
 
 ---
 
-## ⚠️ Disclaimer
-
-This project is for educational and demonstration purposes only.  
-It does not constitute financial advice.
-
----
-
-## 👤 Author
-
-Your Name  
-- GitHub: https://github.com/YOUR_USERNAME  
-- LinkedIn: https://linkedin.com/in/YOUR_PROFILE  
-
----
-
-## ⭐ If you like this project
-
-Give it a star ⭐ and feel free to fork it

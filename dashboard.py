@@ -269,11 +269,11 @@ def chart_cumulative_returns(returns: pd.DataFrame, positions: dict) -> go.Figur
     tickers = [t for t in returns.columns if t in positions]
     weights = np.array([positions[t]["weight"] / 100 for t in tickers])
     port_r  = (returns[tickers] @ weights)
-    cum_r   = (1 + port_r).cumprod() - 1
+    cum_r   = np.exp(port_r.cumsum()) - 1
 
     fig = go.Figure()
     for t in tickers:
-        cum_t = (1 + returns[t]).cumprod() - 1
+        cum_t = np.exp(returns[t].cumsum()) - 1
         fig.add_trace(go.Scatter(
             x=cum_t.index, y=cum_t * 100,
             name=t, mode="lines", opacity=0.5,
